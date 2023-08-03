@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body:before {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    content: "";
+    position: fixed;
+    /* background-image: url(https://api.paugram.com/wallpaper/); */
+    background-image: url(https://api.yimian.xyz/img?type=moe&size=1920x1080&R18=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
