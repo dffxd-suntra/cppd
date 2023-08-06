@@ -1,3 +1,7 @@
+# Warn! BUG! 1e-9 之类的有负号的科学计数法处理会把符号断开,导致编译错误!
+# Warn! BUG! 1e-9 之类的有负号的科学计数法处理会把符号断开,导致编译错误!
+# Warn! BUG! 1e-9 之类的有负号的科学计数法处理会把符号断开,导致编译错误!
+## 懒得改了,这个项目以后估计已经用不到了,随缘更新罢
 # cppd - C++代码混淆器
 使用`vue+vite`框架  
 实例: [https://dffxd-suntra.github.io/cppd](https://dffxd-suntra.github.io/cppd)  
